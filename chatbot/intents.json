@@ -1,0 +1,42 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["What is Simplilearn?"],
+         "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform "],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["What is your name?", "Who are you?", "What should I call you?"],
+         "responses": ["I am a chatbot created to assist you!", "You can call me Chatbot.", "I'm your friendly virtual assistant."],
+         "context": [""]
+        },
+        {"tag": "capabilities",
+         "patterns": ["What can you do?", "How can you help me?", "What are your features?"],
+         "responses": ["I can chat with you, answer simple questions, and help you out!", "I am here to assist you with any questions you might have."],
+         "context": [""]
+        },
+        {"tag": "creator",
+         "patterns": ["Who created you?", "Who made you?", "Who is your developer?"],
+         "responses": ["I was created by a very smart programmer!", "My developer made me to help people like you."],
+         "context": [""]
+        },
+        {"tag": "okay",
+         "patterns": ["Okay", "Ok", "Got it", "Fine", "Sure", "Alright"],
+         "responses": ["Okay!", "Great!", "Awesome!", "Understood."],
+         "context": [""]
+        }
+    ]}

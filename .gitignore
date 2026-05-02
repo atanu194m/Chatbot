@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files
+!*/
+!chatbot/intents.json
+!chatbot/chatbot.py
+!chatbot/main.py
+!/README.md
+!/.gitignore
